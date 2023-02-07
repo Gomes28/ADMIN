@@ -1,0 +1,56 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #ffffff;
+  margin-bottom: 16px;
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+}
+
+.cardHeader{
+  background-color: #ffffff;
+  display: flex;
+  padding: 12px;
+  justify-content: space-between;
+  gap: 20px;
+  align-self: flex-start;
+  border-radius: 12px;
+}
+
+.cardAvatar{
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.cardUser{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardUsername{
+  font-weight: 700;
+  margin-left: 2px;
+}
+
+.cardStar{
+  color: yellow;
+  font-size: 20px;
+}
+
+.cardBody{
+  padding: 2px 16px 8px 16px;
+  width: 100%;
+}
+
+.cardText{
+  border: .7px solid #c4c4c4;
+  width: 100%;
+  min-height: 52px;
+  border: none;
+  border-radius: 12px;
+  padding: 6px 8px;
+  color: #5d5c5c
+}

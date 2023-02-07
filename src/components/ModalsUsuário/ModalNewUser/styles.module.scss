@@ -1,0 +1,62 @@
+.container{
+  background-color: #ffffff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  width: 40%;
+  height: 70vh;
+  box-sizing: border-box;
+}
+
+.modalHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formText{
+  color: #333333;
+  font-size: 14px;
+}
+
+.option{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid #999999;
+  background-color: #fff;
+}
+
+.optionActive{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid #273339;
+  background-color: #fff;
+}
+
+.optionContent{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.optionContentActive{
+  height: 100%;
+  width: 100%;
+  background-color: #273339;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.redText{
+  color: #273339;
+  font-weight: 600;
+  font-size: 16px;
+}

@@ -1,0 +1,123 @@
+@import "../dashboard/styles.module.scss";
+
+.productOrCategory{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 2rem;
+}
+
+.optionActive{
+    background-color: #fff;
+    padding: 16px 32px;
+    font-weight: bold;
+    color: #273339;
+}
+
+.option{
+    background-color: #fafafa;
+    padding: 16px 32px;
+    color: #666;
+}
+
+.containerGray{
+    background-color: #cccccc66;
+    width: 1.125%;
+    text-align: center;
+    border-radius: 4px
+}
+
+.table table{
+    width: 90%;
+    border-radius: 4px;
+    border: 1px solid #cccccc66;
+}
+
+.table .tableHeadBackground{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    background-color: #cccccc66;
+    border: none;
+    height: calc(32px + 16px);
+    border-radius: 4px 4px 0px 0px;
+}
+
+.table .tableContent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    height: 64px;
+    border-bottom: .3px solid #cccccc66;
+    background-color: #fff;
+}
+
+.table .tableContentCategory{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    height: 64px;
+    border-bottom: .3px solid #cccccc66;
+    background-color: #fff;
+}
+
+.tableHead{
+    border: none;
+    color: #333333;
+    font-weight: 600;
+    width: 20%;
+    text-align: start;
+}
+
+.tableItem{
+    width: 20%;
+    text-align: start;
+    padding-left: 1px;
+    color: #333333;
+    
+}
+
+.tableImage{
+    height: 60%;
+    width: 15%;
+}
+
+.tableButton{
+    padding: 0;
+    border: 0;
+    background: none;
+    margin-right: 16px;
+}
+
+.test{
+    background: none;
+}
+
+.redText{
+  color: #273339;
+  font-weight: 600;
+}
+
+.modal{
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top *//* Location of the box */
+  padding-left: 7%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+   /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalClose{
+  display: none;
+}

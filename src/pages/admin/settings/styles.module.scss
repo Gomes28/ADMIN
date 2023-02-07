@@ -1,0 +1,191 @@
+@import '../dashboard/styles.module.scss';
+
+.mainContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px 0px 0px 0;
+  padding-bottom: 0px;
+  width: 80%;
+  box-shadow: 1.5px 2.5px 2px 1px rgba(0,0,0,0.2);
+}
+
+.sidebarContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  border-right: 1px solid #33333366;
+}
+
+.perfilInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333333;
+  font-weight: 600;
+}
+
+.perfilImage{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin-bottom: 0.4rem;
+}
+
+.listaOptions{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lista{
+  width: 100%;
+}
+
+.listaElement{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  border-bottom: #33333366 1px solid;
+  border-top: #33333366 1px solid;
+  padding: 8px 0;
+  font-size: 16px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.listaElementActive{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  border-bottom: #33333366 1px solid;
+  border-top: #33333366 1px solid;
+  padding: 8px 0;
+  font-size: 16px;
+  color: #3881ef;
+  font-weight: bold;
+}
+
+.listaElement:hover,
+.listaElementSemBorda:hover,
+.listaUltimoElement:hover
+{
+  color: #3881ef;
+  font-weight: 600;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.listaElementSemBorda{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  border-bottom: #33333366 1px solid;
+  padding: 8px 0;
+  font-size: 16px;
+  transition: 0.3s;
+  color: #333333;
+  font-weight: 600;
+}
+
+.listaElementSemBordaActive{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  border-bottom: #33333366 1px solid;
+  padding: 8px 0;
+  font-size: 16px;
+  transition: 0.3s;
+  color: #3881ef;
+  font-weight: bold;
+  color: #333333;
+  font-weight: 600;
+}
+
+.listaUltimoElement{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  border-radius: 0px 12px 0px 0px;
+  padding: 8px 0;
+  font-size: 16px;
+  transition: 0.3s;
+  color: #333333;
+  font-weight: 600;
+}
+
+.listaUltimoElementActive{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  border-radius: 0px 12px 0px 0px;
+  padding: 8px 0;
+  font-size: 16px;
+  transition: 0.3s;
+  color: #3881ef;
+  font-weight: bold;
+}
+
+.openTab{
+  width: 80%;
+}
+
+.accountContent{
+  width: 100%;
+  padding: 0 16px;
+  margin-bottom: .5rem;
+}
+
+.accountInputs{
+  width: 100%;
+  margin: 8px 0;
+}
+
+.inputGroup{
+  display: flex;
+  justify-content: space-between;
+}
+
+.textArea{
+  background-color: #fff;
+  border: 1px solid #33333366;
+  border-radius: 0.5rem;
+  width: 100%;
+  color: #333333;
+  padding: .5rem;
+}
+
+.accountContentPassword{
+  width: 80%;
+  padding: 0 16px;
+  margin-bottom: .5rem;
+}
+
+.accountInputsPassword{
+  width: 100%;
+  margin: 8px 0;
+}
+
+.inputGroupPassword{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.inputGroupNotification{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.notificationInput{
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}

@@ -1,0 +1,467 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');  
+.sidebar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 78px;
+  background: #364153;
+  padding: 6px 14px;
+  z-index: 99;
+  transition: all 0.5s ease;
+}
+
+.sidebarOpen{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 78px;
+  background: #364153;
+  padding: 6px 14px;
+  z-index: 99;
+  transition: all 0.5s ease;
+  width: 250px;
+}
+
+.sidebar .logoDetails{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.sidebar .logoDetails .icon{
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.sidebar .logoDetails .logoName{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.sidebarOpen .logoDetails{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.sidebarOpen .logoDetails .icon{
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.sidebarOpen .logoDetails .logoName{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.sidebar .linksName{
+    display: none;
+}
+
+.sidebarOpen .logoDetails .icon,
+.sidebarOpen .logoDetails .logoName{
+  opacity: 1;
+}
+.sidebar .logoDetails .btn{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: all 0.4s ease;
+  font-size: 23px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.sidebarOpen .logoDetails .btn{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: all 0.4s ease;
+  font-size: 23px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.sidebarOpen .logoDetails .btn{
+  text-align: right;
+}
+.sidebar i{
+  color: #666666;
+  height: 60px;
+  min-width: 50px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.sidebar .navList{
+  margin-top: 20px;
+  height: 100%;
+}
+.sidebar li{
+  position: relative;
+  margin: 8px 0;
+  list-style: none;
+  text-align: center;  
+}
+
+.sidebarOpen li{
+    text-align: start;
+}
+
+.sidebar li .tooltip{
+  position: absolute;
+  top: -20px;
+  left: calc(100% + 15px);
+  z-index: 3;
+  background: #273339;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: 0s;
+}
+.sidebar li:hover .tooltip{
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.4s ease;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+}
+
+.sidebarOpen i{
+    color: #666666;
+    height: 60px;
+    min-width: 50px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .sidebarOpen .navList{
+    margin-top: 20px;
+    height: 100%;
+  }
+  .sidebarOpen li{
+    position: relative;
+    margin: 8px 0;
+    list-style: none;
+  }
+  .sidebarOpen li .tooltip{
+    position: absolute;
+    top: -20px;
+    left: calc(100% + 15px);
+    z-index: 3;
+    background: #666666;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 0s;
+  }
+  .sidebarOpen li:hover .tooltip{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.4s ease;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+.sidebar li:hover{
+  color: #273339;
+}
+
+.sidebarOpen li .tooltip{
+  display: none;
+}
+.input{
+  font-size: 15px;
+  color: #FFF;
+  font-weight: 400;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  width: 50px;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+  background: #fafafa;
+}
+.sidebarOpen input{
+  padding: 0 20px 0 50px;
+  width: 100%;
+}
+.sidebar .bxSearch{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  background: #666666;
+  color: #fafafa;
+}
+
+.sidebarOpen .bxSearch{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  background: #fafafa;
+  color: #666666;
+}
+
+.sidebarOpen .bxSearch:hover{
+  background: #1d1b31;
+  color: #FFF;
+}
+.sidebarOpen .bxSearch:hover{
+  background: #FFF;
+  color: #11101d;
+}
+.sidebarOpen li a{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  background: #fafafa;
+}
+.sidebarOpen li a:hover{
+  background: #FFF;
+}
+.sidebarOpen li a .linksName{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.sidebarOpen .bxSearch:hover{
+  background: #FFF;
+  color: #273339;
+}
+
+.sidebarOpen li a{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  background: #5E6775;
+  color: #111;
+}
+.sidebarOpen li a:hover{
+  background: #fafafa;
+}
+.sidebarOpen li a .linksName{
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+  position: relative;
+  top: -2;
+}
+
+.sidebarOpen li a .linksName{
+  opacity: 1;
+  pointer-events: auto;
+}
+.sidebar li a:hover .linksName,
+.sidebar li a:hover i{
+  transition: all 0.5s ease;
+  color: #273339;
+}
+
+.sidebar li i{
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+.sidebar li.profile{
+  position: fixed;
+  height: 60px;
+  width: 78px;
+  left: 0;
+  bottom: -8px;
+  padding: 10px 14px;
+  background: #fafafa;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.sidebarOpen li a:hover .linksName,
+.sidebarOpen li a:hover i{
+  transition: all 0.5s ease;
+  color: #273339;
+}
+.sidebarOpen li i{
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+.sidebarOpen li.profile{
+  position: fixed;
+  height: 60px;
+  width: 78px;
+  left: 0;
+  bottom: -8px;
+  padding: 10px 14px;
+  background: #364153;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.sidebarOpen li.profile{
+  width: 250px;
+}
+.sidebar li .profileDetails{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.sidebar li img{
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+.sidebar li.profile .name,
+.sidebar li.profile .job{
+  font-size: 15px;
+  font-weight: 400;
+  color: #333333;
+  white-space: nowrap;
+}
+.sidebar li.profile .job{
+  font-size: 12px;
+}
+.sidebar .profile .logOut{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: #364153;
+  color: #666666;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0px;
+  transition: all 0.5s ease;
+}
+
+.sidebarOpen li .profileDetails{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.sidebar .profileDetails,
+.sidebar .job,
+.sidebar .name{
+    display: none;
+}
+
+.sidebarOpen li img{
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+.sidebarOpen li.profile .name,
+.sidebarOpen li.profile .job{
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  white-space: nowrap;
+}
+.sidebarOpen li.profile .job{
+  font-size: 12px;
+}
+.sidebarOpen .profile .logOut{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: #273339;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0px;
+  transition: all 0.5s ease;
+}
+
+.sidebarOpen .profile .logOut{
+  width: 50px;
+  background: none;
+}
+.homeSection{
+  position: relative;
+  background: #E4E9F7;
+  min-height: 100vh;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+.sidebarOpen ~ .homeSection{
+  left: 250px;
+  width: calc(100% - 250px);
+}
+.homeSection .text{
+  display: inline-block;
+  color: #333333;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 18px
+}
+
+.sidebarOpen{
+  margin-right: 32px;
+}
+
+@media (max-width: 420px) {
+  .sidebar li .tooltip{
+    display: none;
+  }
+  .sidebarOpen li .tooltip{
+    display: none;
+  }
+}

@@ -1,0 +1,61 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  border-radius: 12px;
+  background-color: #ffffff;
+  margin-bottom: 16px;
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+  padding: 8px;
+}
+
+.cardImg{
+  width: 95%;
+  height: 85%;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.productInfo{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 4px;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nameAndPrice{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px 0 12px 0;
+}
+
+.name{
+  line-height: 1.5rem;
+}
+
+
+.description{
+  font-size: 15px;
+  color: #595757;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.cardFooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.preco{
+  color: #70e000;
+  font-weight: bold;
+  font-size: 20px;
+}

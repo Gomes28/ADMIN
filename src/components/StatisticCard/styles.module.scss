@@ -1,0 +1,43 @@
+.dataContainer{
+    background-color: #364153;
+    padding: 8px;
+    width: 24%;
+    height: 8rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1.5px 2.5px 2px 1px rgba(0,0,0,0.2);
+  }
+  
+  .dataContainerData{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    margin-left: 0.5rem;
+  }
+  
+  .dataIcon{
+    background-color: #273339;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .dataContainer p{
+    color: #333333;
+    font-size: 18px;
+    flex-direction: row;
+  }
+  
+  .dataContainer h2{
+    font-size: 22px
+  }
+  

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Matheus Gomes",
+    "email": "matheusgomes@gmail.com",
+    "role": "admin",
+    "password": "root",
+    "id": "1"
+  },
+  {
+    "name": "Gustavo Coelho",
+    "email": "gustavocoelho@gmail.com",
+    "role": "admin",
+    "password": "root",
+    "id": "2"
+  },
+  {
+    "name": "Arthur Castro",
+    "email": "arthurcastro@gmail.com",
+    "role": "garcom",
+    "password": "root",
+    "id": "3"
+  }
+  
+]

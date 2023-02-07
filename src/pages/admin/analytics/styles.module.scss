@@ -1,0 +1,39 @@
+@import "../dashboard/styles.module.scss";
+
+.graphics{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.graphicTitle{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.graphicSelect{
+  font-weight: bold;
+  border: none;
+  background: none;
+}
+
+.barChartGraphic{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  width: 59%;
+  height: 60%;
+}
+
+.pieChartGraphic{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 39%;
+  border-radius: 12px;
+}
+
+.dataContainer{
+  flex-direction: row;
+}

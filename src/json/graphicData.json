@@ -1,0 +1,37 @@
+[
+  {
+    "dia": "01/01",
+    "Vendas": 113,
+    "Visitas": 241
+  },
+  {
+    "dia": "02/01",
+    "Vendas": 85,
+    "Visitas": 189
+  },
+  {
+    "dia": "03/01",
+    "Vendas": 76,
+    "Visitas": 121
+  },
+  {
+    "dia": "04/01",
+    "Vendas": 57,
+    "Visitas": 243
+  },
+  {
+    "dia": "05/01",
+    "Vendas": 89,
+    "Visitas": 216
+  },
+  {
+    "dia": "06/01",
+    "Vendas": 93,
+    "Visitas": 158
+  },
+  {
+    "dia": "Hoje",
+    "Vendas": 68,
+    "Visitas": 98
+  }
+]

@@ -1,0 +1,28 @@
+.container{
+  background-color: #ffffff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  width: 40%;
+  height: 52vh;
+  box-sizing: border-box;
+}
+
+@media (min-height: 900px){
+  .container{
+    height: 39vh;
+  }
+}
+
+.modalHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formText{
+  color: #333333;
+  font-size: 14px;
+}

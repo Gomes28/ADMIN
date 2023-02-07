@@ -1,0 +1,50 @@
+[
+    {
+        "img": "./../frios.jpg",
+        "name": "Tábua de frios",
+        "unv": "12",
+        "category": "Frios",
+        "preco": "R$ 217,00",
+        "descricao":"Uma Tábua de frios, com muita diversidade e qualidade"
+    },
+    {
+      "img": "./../macarrao.jpeg",
+      "name": "Macarrão ao molho",
+      "unv": "12",
+      "category": "Massas",
+      "preco": "R$ 25,80",
+      "descricao":"Considerado por muitos como o melhor macarrão de Catalão e região"
+  },
+  {
+    "img": "./../petitgateau.jpeg",
+    "name": "Petit Gateau",
+    "unv": "12",
+    "category": "Sobremesas",
+    "preco": "R$ 17,00",
+    "descricao":"Uma das sobremesas mais famosas do mundo, direto da França para sua casa"
+  },
+  {
+    "img": "./../frios.jpg",
+    "name": "Tábua de frios",
+    "unv": "12",
+    "category": "Frios",
+    "preco": "R$ 217,00",
+    "descricao":"Uma Tábua de frios, com muita diversidade e qualidade"
+  },
+  {
+    "img": "./../macarrao.jpeg",
+    "name": "Macarrão ao molho",
+    "unv": "12",
+    "category": "Massas",
+    "preco": "R$ 25,80",
+    "descricao":"Considerado por muitos como o melhor macarrão de Catalão e região"
+  },
+  {
+    "img": "./../petitgateau.jpeg",
+    "name": "Petit Gateau",
+    "unv": "12",
+    "category": "Sobremesas",
+    "preco": "R$ 17,00",
+    "descricao":"Uma das sobremesas mais famosas do mundo, direto da França para sua casa"
+  }
+]

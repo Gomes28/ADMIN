@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Quatro Queijos",
+    "description": "Com Borda Recheada",
+    "_id": "1",
+    "category": {
+      "name": "Pizzas",
+      "icon": "🍕",
+      "_id": "63741b12101de38101314537"
+    },
+    "ingredients": [
+      {
+        "name": "Mussarela",
+        "icon": "🧀",
+        "_id": "637424e845317557f4c4b8ce"
+      },
+      {
+        "name": "Parmesão",
+        "icon": "🧀",
+        "_id": "637424e845317557f4c4b8cf"
+      }
+    ],
+    "preco": "40,00"
+  }
+]

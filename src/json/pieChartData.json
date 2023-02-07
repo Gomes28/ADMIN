@@ -1,0 +1,5 @@
+[
+  { "name": "Desktop", "value": "60"},
+  { "name": "Mobile", "value": "30"},
+  { "name": "Tablet", "value": "10"}
+]
